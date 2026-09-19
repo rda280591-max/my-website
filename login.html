@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ورود | گیم‌زون</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+</head>
+<body class="auth-body">
+<div class="auth-card reveal">
+  <div class="auth-header">
+    <a href="index.html" class="logo">🎮 گیم‌زون</a>
+    <h1 id="authTitle">ورود به حساب</h1>
+    <p id="authSub">به دنیای گیمرها خوش برگشتی!</p>
+  </div>
+  <div class="auth-tabs">
+    <button class="auth-tab active" data-tab="login">ورود</button>
+    <button class="auth-tab" data-tab="register">ثبت‌نام</button>
+  </div>
+  <form class="auth-form" id="loginForm" novalidate>
+    <div class="form-group"><label>ایمیل</label><input type="email" id="lEmail" required></div>
+    <div class="form-group"><label>رمز عبور</label><input type="password" id="lPass" required></div>
+    <label class="checkbox"><input type="checkbox"> مرا به خاطر بسپار</label>
+    <button class="btn btn-primary btn-block" type="submit">ورود</button>
+    <a href="#" class="forgot">فراموشی رمز عبور؟</a>
+    <div class="divider">یا</div>
+    <button class="btn btn-ghost btn-block" type="button">🌐 ورود با گوگل</button>
+    <div class="msg" id="loginMsg"></div>
+  </form>
+  <form class="auth-form" id="registerForm" style="display:none" novalidate>
+    <div class="form-group"><label>نام کاربری</label><input type="text" id="rName" required></div>
+    <div class="form-group"><label>ایمیل</label><input type="email" id="rEmail" required></div>
+    <div class="form-group"><label>رمز عبور</label><input type="password" id="rPass" required></div>
+    <div class="form-group"><label>تکرار رمز</label><input type="password" id="rPass2" required></div>
+    <label class="checkbox"><input type="checkbox" required> با <a href="#">قوانین</a> موافقم</label>
+    <button class="btn btn-primary btn-block" type="submit">ایجاد حساب</button>
+    <div class="msg" id="regMsg"></div>
+  </form>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سبد خرید | گیم‌زون</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <nav class="nav container">
+    <a href="index.html" class="logo">🎮 گیم‌زون</a>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="index.html">خانه</a></li>
+      <li><a href="games.html">بازی‌ها</a></li>
+      <li><a href="reviews.html">نقدها</a></li>
+      <li><a href="blog.html">بلاگ</a></li>
+      <li><a href="about.html">درباره ما</a></li>
+      <li><a href="contact.html">تماس</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn theme-toggle" id="themeToggle">🌙</button>
+      <a href="cart.html" class="icon-btn cart-btn active">🛒 <span class="cart-count" id="cartCount">0</span></a>
+      <a href="login.html" class="btn btn-sm">ورود</a>
+      <button class="icon-btn menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="page-hero reveal">
+    <h1>🛒 سبد خرید شما</h1>
+  </section>
+  <section class="cart-layout reveal">
+    <div class="cart-items" id="cartItems">
+      <div class="empty" id="cartEmpty">سبد خرید شما خالی است. <a href="games.html">بازی‌ها را ببین</a></div>
+    </div>
+    <aside class="cart-summary">
+      <h3>خلاصه سفارش</h3>
+      <div class="sum-row"><span>جمع کل:</span><b id="sumSubtotal">۰ تومان</b></div>
+      <div class="sum-row"><span>تخفیف:</span><b id="sumDiscount" class="text-red">۰ تومان</b></div>
+      <div class="sum-row"><span>مالیات:</span><b id="sumTax">۰ تومان</b></div>
+      <hr>
+      <div class="sum-row total"><span>مبلغ نهایی:</span><b id="sumTotal">۰ تومان</b></div>
+      <input type="text" class="coupon-input" id="coupon" placeholder="کد تخفیف">
+      <button class="btn btn-ghost btn-sm" id="applyCoupon">اعمال کد</button>
+      <button class="btn btn-primary btn-block mt-2" id="checkoutBtn">پرداخت و تکمیل سفارش</button>
+    </aside>
+  </section>
+</main>
+
+<footer class="footer"><div class="copyright">© ۱۴۰۵ گیم‌زون</div></footer>
+<button id="toTop">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>

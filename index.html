@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="گیم‌زون — مرجع فارسی بازی‌های ویدیویی، نقدها، اخبار و فروشگاه">
+<title>گیم‌زون | خانهٔ گیمرهای ایرانی</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <nav class="nav container">
+    <a href="index.html" class="logo">🎮 گیم‌زون</a>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="index.html" class="active">خانه</a></li>
+      <li><a href="games.html">بازی‌ها</a></li>
+      <li><a href="reviews.html">نقدها</a></li>
+      <li><a href="blog.html">بلاگ</a></li>
+      <li><a href="about.html">درباره ما</a></li>
+      <li><a href="contact.html">تماس</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn theme-toggle" id="themeToggle" aria-label="تغییر تم">🌙</button>
+      <a href="cart.html" class="icon-btn cart-btn" aria-label="سبد خرید">
+        🛒 <span class="cart-count" id="cartCount">0</span>
+      </a>
+      <a href="login.html" class="btn btn-sm">ورود</a>
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="منو">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- هیرو -->
+  <section class="hero reveal">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="container hero-inner">
+      <span class="pill">🎮 مرجع فارسی گیمرها</span>
+      <h1>دنیای <span class="gradient-text">بازی‌های ویدیویی</span> در دستان تو</h1>
+      <p class="hero-desc">معرفی، نقد، اخبار و خرید جدیدترین بازی‌ها — همه در یک جا، با طراحی مخصوص گیمرهای ایرانی.</p>
+      <div class="hero-btns">
+        <a href="games.html" class="btn btn-primary">مشاهده بازی‌ها</a>
+        <a href="reviews.html" class="btn btn-ghost">آخرین نقدها</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b><span class="num" data-target="120">0</span>+</b><span>بررسی بازی</span></div>
+        <div class="stat"><b><span class="num" data-target="48">0</span> هزار</b><span>کاربر فعال</span></div>
+        <div class="stat"><b><span class="num" data-target="350">0</span>+</b><span>خبر منتشرشده</span></div>
+        <div class="stat"><b><span class="num" data-target="25">0</span>+</b><span>سال تجربه</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- بازی‌های ویژه -->
+  <section class="section container reveal">
+    <div class="sec-head">
+      <div>
+        <h2>🔥 بازی‌های ویژه</h2>
+        <p class="sub">منتخب سردبیر</p>
+      </div>
+      <a href="games.html" class="link">همه بازی‌ها ←</a>
+    </div>
+    <div class="grid" id="featuredGrid"></div>
+  </section>
+
+  <!-- آخرین نقدها -->
+  <section class="section container reveal">
+    <div class="sec-head">
+      <div>
+        <h2>✍️ آخرین نقدها</h2>
+        <p class="sub">بررسی تخصصی جدیدترین عناوین</p>
+      </div>
+      <a href="reviews.html" class="link">همه نقدها ←</a>
+    </div>
+    <div class="reviews-grid" id="reviewsHome"></div>
+  </section>
+
+  <!-- آخرین مقالات -->
+  <section class="section container reveal">
+    <div class="sec-head">
+      <div>
+        <h2>📰 از بلاگ</h2>
+        <p class="sub">مقالات، آموزش‌ها و راهنماها</p>
+      </div>
+      <a href="blog.html" class="link">همه مقالات ←</a>
+    </div>
+    <div class="blog-grid" id="blogHome"></div>
+  </section>
+
+  <!-- دسته‌بندی‌ها -->
+  <section class="section container reveal">
+    <h2 class="sec-title">🎯 دسته‌بندی‌ها</h2>
+    <p class="sub">ژانر مورد علاقه‌ات رو پیدا کن</p>
+    <div class="categories">
+      <a href="games.html?genre=اکشن" class="cat-card">
+        <span class="cat-emoji">⚔️</span>
+        <h3>اکشن</h3>
+        <p>۲۴ بازی</p>
+      </a>
+      <a href="games.html?genre=نقش‌آفرینی" class="cat-card">
+        <span class="cat-emoji">🧙</span>
+        <h3>نقش‌آفرینی</h3>
+        <p>۱۸ بازی</p>
+      </a>
+      <a href="games.html?genre=شوتر" class="cat-card">
+        <span class="cat-emoji">🎯</span>
+        <h3>شوتر</h3>
+        <p>۳۱ بازی</p>
+      </a>
+      <a href="games.html?genre=ورزشی" class="cat-card">
+        <span class="cat-emoji">⚽</span>
+        <h3>ورزشی</h3>
+        <p>۱۵ بازی</p>
+      </a>
+      <a href="games.html?genre=سندباکس" class="cat-card">
+        <span class="cat-emoji">⛏️</span>
+        <h3>سندباکس</h3>
+        <p>۹ بازی</p>
+      </a>
+      <a href="games.html?genre=استراتژی" class="cat-card">
+        <span class="cat-emoji">🏰</span>
+        <h3>استراتژی</h3>
+        <p>۲۲ بازی</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- خبرنامه -->
+  <section class="section container reveal">
+    <div class="newsletter">
+      <h2>✉️ عضو خبرنامه شو</h2>
+      <p>هر هفته خلاصه اخبار و تخفیف‌های ویژه رو مستقیم در ایمیلت دریافت کن.</p>
+      <form id="subForm" novalidate>
+        <input type="email" id="email" placeholder="ایمیل خود را وارد کنید" required>
+        <button class="btn btn-primary" type="submit">عضویت</button>
+      </form>
+      <div class="msg" id="msg"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>🎮 گیم‌زون</h4>
+      <p class="footer-desc">مرجع فارسی گیمرها از سال ۱۳۹۵. ما عاشق بازی‌های ویدیویی هستیم و می‌خوایم این عشق رو با تو به اشتراک بذاریم.</p>
+    </div>
+    <div>
+      <h4>لینک‌های سریع</h4>
+      <ul class="footer-links">
+        <li><a href="games.html">بازی‌ها</a></li>
+        <li><a href="reviews.html">نقدها</a></li>
+        <li><a href="blog.html">بلاگ</a></li>
+        <li><a href="about.html">درباره ما</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>پشتیبانی</h4>
+      <ul class="footer-links">
+        <li><a href="contact.html">تماس با ما</a></li>
+        <li><a href="#">قوانین</a></li>
+        <li><a href="#">حریم خصوصی</a></li>
+        <li><a href="#">سوالات متداول</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>شبکه‌های اجتماعی</h4>
+      <div class="social">
+        <a href="#" class="social-btn">📸</a>
+        <a href="#" class="social-btn">🐦</a>
+        <a href="#" class="social-btn">📺</a>
+        <a href="#" class="social-btn">💬</a>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">© ۱۴۰۵ گیم‌زون — تمامی حقوق محفوظ است.</div>
+</footer>
+
+<button id="toTop" aria-label="بازگشت به بالا">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
