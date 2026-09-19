@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نقدها | گیم‌زون</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <nav class="nav container">
+    <a href="index.html" class="logo">🎮 گیم‌زون</a>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="index.html">خانه</a></li>
+      <li><a href="games.html">بازی‌ها</a></li>
+      <li><a href="reviews.html" class="active">نقدها</a></li>
+      <li><a href="blog.html">بلاگ</a></li>
+      <li><a href="about.html">درباره ما</a></li>
+      <li><a href="contact.html">تماس</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn theme-toggle" id="themeToggle">🌙</button>
+      <a href="cart.html" class="icon-btn cart-btn">🛒 <span class="cart-count" id="cartCount">0</span></a>
+      <a href="login.html" class="btn btn-sm">ورود</a>
+      <button class="icon-btn menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="page-hero reveal">
+    <h1>✍️ نقدهای تخصصی</h1>
+    <p>بررسی دقیق بازی‌ها توسط تیم متخصص ما.</p>
+  </section>
+
+  <section class="reveal">
+    <div class="featured-review">
+      <div class="fr-cover">
+        <span class="fr-emoji">⚔️</span>
+        <span class="fr-score">۹.۵</span>
+      </div>
+      <div class="fr-body">
+        <span class="pill">⭐ نقد ویژه</span>
+        <h2>نقد و بررسی Elden Ring: Nightreign</h2>
+        <p class="fr-excerpt">نسخهٔ جدید فرنچایز از نظر گیم‌پلی و روایت، یک جهش بزرگ رو تجربه کرده. در این نقد، به تمام نقاط قوت و ضعف می‌پردازیم.</p>
+        <div class="fr-meta">
+          <span>👤 توسط علی رضایی</span>
+          <span>📅 ۲۵ شهریور ۱۴۰۵</span>
+          <span>⏱ ۱۲ دقیقه مطالعه</span>
+        </div>
+        <a href="#" class="btn btn-primary mt-2">خواندن نقد کامل</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <h2>آخرین نقدها</h2>
+    <div class="reviews-grid" id="reviewsGrid"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="copyright">© ۱۴۰۵ گیم‌زون</div>
+</footer>
+<button id="toTop">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
